@@ -77,7 +77,7 @@ submitbtn.addEventListener('click', ()=>{
     currentquestion=currentquestion+1
     if(currentquestion ==quizdata.length)
     {
-        document.getElementById('quizdiv').innerHTML = '<h1> You have answered ${quizscore} correctly out of ${quizdata.length} </h1>'
+        document.getElementById('quizdiv').innerHTML = `<h1> You have answered ${quizscore} correctly out of ${quizdata.length} </h1>`
     }
     else{
         loadquiz()
